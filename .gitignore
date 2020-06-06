@@ -3,7 +3,6 @@ logs
 npm-debug.log*
 
 node_modules/
-jspm_packages/
 
 uploads/*
 
