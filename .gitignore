@@ -1,15 +1,18 @@
-### Node ###
-# Logs
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
-# Compiled binary addons
-build/Release
-
-# Dependency directories
 node_modules/
 jspm_packages/
+
+uploads/*
+
+!uploads/.gitkeep
+!uploads/baterias.svg
+!uploads/eletronicos.svg
+!uploads/lampadas.svg
+!uploads/oleo.svg
+!uploads/organicos.svg
+!uploads/papis-papelao.svg
+
+*.sqlite
